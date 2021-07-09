@@ -15,10 +15,13 @@ public:
         return false;
     }
 };
-// type: 
+// type: partial-sum + hash
 
 /* tips */
 /*
+    s[r] - s[l - 1] = n * k
+    s[r] ≡ s[l - 1] (mod k)
+    1 <= l <= n; 2 <= r <= n; 0 <= l - 1 <= n - 1;
 */
 
 /* editorial */
