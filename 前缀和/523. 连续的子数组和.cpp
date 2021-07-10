@@ -19,6 +19,8 @@ public:
 
 /* tips */
 /*
+    边界: [0] 1 -> if (i - hash[x] >= 2) return true;
+    hash[0] == 0; -> if (hash[x] != 0) is wrong!
     s[r] - s[l - 1] = n * k
     s[r] ≡ s[l - 1] (mod k)
     1 <= l <= n; 2 <= r <= n; 0 <= l - 1 <= n - 1;
