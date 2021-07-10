@@ -33,4 +33,5 @@ public:
 /* question */
 /*
     hash.find(v[k]) != hash.end() vs hash[v[k]] ? 
+    hash[0] == 0 -> use hash[v[k]] is wrong!
 */
